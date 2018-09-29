@@ -1,0 +1,9 @@
+Hi,
+
+Thanks for your email. Based on my understanding the idea you are thinking of is in line with the ant colony optimization problem. Ants leave the colony (start state) in different directions looking for food (goal state). While traveling they drop pheromone on their chosen paths. Pheromone may evaporate after certain time. Now if an ant reaches food quicker using a path, it can return to the colony with the gathered food quicker. Hence pheromone on this particular path is expected to persist. As more and more ants leave the colony, they check which path has dense pheromone and choose that path. As more and more ants travel through this path, pheromone density continues to grow since each ant drops pheromone. 
+
+Using the same analogy, a longer path to the goal means pheromone would dry down on this path. Ants are less likely to pick this path as it has low density of pheromone. Fewer ants traveling through this path means pheromone density would not increase much. 
+
+Hope this helps. 
+
+BR, Ashek 
